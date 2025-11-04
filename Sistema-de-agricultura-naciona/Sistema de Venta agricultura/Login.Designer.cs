@@ -36,7 +36,6 @@
             txtuser = new TextBox();
             txtpassword = new TextBox();
             btnLimpiar = new Button();
-            btntest = new Button();
             SuspendLayout();
             // 
             // label1
@@ -59,6 +58,7 @@
             btnIngresar.TabIndex = 1;
             btnIngresar.Text = "Ingresar";
             btnIngresar.UseVisualStyleBackColor = true;
+            btnIngresar.Click += btnIngresar_Click;
             // 
             // label2
             // 
@@ -89,6 +89,7 @@
             btnRegistrar.TabIndex = 4;
             btnRegistrar.Text = "Registrar";
             btnRegistrar.UseVisualStyleBackColor = true;
+            btnRegistrar.Click += btnRegistrar_Click;
             // 
             // txtuser
             // 
@@ -120,22 +121,11 @@
             btnLimpiar.UseVisualStyleBackColor = true;
             btnLimpiar.Click += btnLimpiar_Click;
             // 
-            // btntest
-            // 
-            btntest.Location = new Point(815, 245);
-            btntest.Name = "btntest";
-            btntest.Size = new Size(91, 30);
-            btntest.TabIndex = 8;
-            btntest.Text = "button1";
-            btntest.UseVisualStyleBackColor = true;
-            btntest.Click += btntest_Click;
-            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1117, 630);
-            Controls.Add(btntest);
             Controls.Add(btnLimpiar);
             Controls.Add(txtpassword);
             Controls.Add(txtuser);
@@ -161,6 +151,5 @@
         private TextBox txtuser;
         private TextBox txtpassword;
         private Button btnLimpiar;
-        private Button btntest;
     }
 }

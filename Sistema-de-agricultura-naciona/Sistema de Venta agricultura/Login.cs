@@ -45,11 +45,23 @@ namespace Sistema_de_Venta_agricultura
 
         private void btntest_Click(object sender, EventArgs e)
         {
-            Inicio paginicial = new Inicio();
+           
+
+
+        }
+
+        private void btnRegistrar_Click(object sender, EventArgs e)
+        {
+            Registro registroUsuario = new Registro();
+            registroUsuario.Show();
+            this.Hide();
+        }
+
+        private void btnIngresar_Click(object sender, EventArgs e)
+        {
+            PagInicial paginicial = new PagInicial();
             paginicial.Show();
             this.Hide();
-
-            PrintDialog printDialog = new PrintDialog();
         }
     }
 }
