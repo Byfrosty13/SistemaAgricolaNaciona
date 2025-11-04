@@ -48,6 +48,8 @@ namespace Sistema_de_Venta_agricultura
             Inicio paginicial = new Inicio();
             paginicial.Show();
             this.Hide();
+
+            PrintDialog printDialog = new PrintDialog();
         }
     }
 }
