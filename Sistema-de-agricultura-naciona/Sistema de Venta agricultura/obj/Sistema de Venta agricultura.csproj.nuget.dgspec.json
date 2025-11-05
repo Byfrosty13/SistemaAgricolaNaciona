@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj": {}
+    "C:\\Users\\izeledon\\source\\repos\\Byfrosty13\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj": {
+    "C:\\Users\\izeledon\\source\\repos\\Byfrosty13\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj",
+        "projectUniqueName": "C:\\Users\\izeledon\\source\\repos\\Byfrosty13\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj",
         "projectName": "Sistema de Venta agricultura",
-        "projectPath": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj",
-        "packagesPath": "C:\\Users\\Isaac Zeledon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\obj\\",
+        "projectPath": "C:\\Users\\izeledon\\source\\repos\\Byfrosty13\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj",
+        "packagesPath": "C:\\Users\\izeledon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\izeledon\\source\\repos\\Byfrosty13\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Isaac Zeledon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\izeledon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
