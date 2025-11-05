@@ -44,19 +44,19 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Baskerville Old Face", 16F);
+            label1.Font = new Font("Baskerville Old Face", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.Control;
-            label1.Location = new Point(125, 72);
+            label1.Location = new Point(112, 84);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(342, 36);
+            label1.Size = new Size(368, 108);
             label1.TabIndex = 0;
-            label1.Text = "Sistema Agricola Naciona";
+            label1.Text = "Sistema \r\nAgricola Naciona\r\n";
             label1.Click += label1_Click;
             // 
             // btnIngresar
             // 
-            btnIngresar.BackColor = Color.LimeGreen;
+            btnIngresar.BackColor = Color.RoyalBlue;
             btnIngresar.Font = new Font("Baskerville Old Face", 16F);
             btnIngresar.ForeColor = SystemColors.ButtonHighlight;
             btnIngresar.Location = new Point(822, 525);
@@ -140,7 +140,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Baskerville Old Face", 28F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Font = new Font("Baskerville Old Face", 28F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label4.ForeColor = SystemColors.AppWorkspace;
             label4.Location = new Point(802, 156);
             label4.Name = "label4";
