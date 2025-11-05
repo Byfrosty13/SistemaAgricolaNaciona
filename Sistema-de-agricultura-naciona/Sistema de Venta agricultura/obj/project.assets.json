@@ -8,23 +8,23 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\izeledon\\.nuget\\packages\\": {},
+    "C:\\Users\\Isaac Zeledon\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\izeledon\\OneDrive - Amadeus Workplace\\Documents\\GitHub\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj",
+      "projectUniqueName": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj",
       "projectName": "Sistema de Venta agricultura",
-      "projectPath": "C:\\Users\\izeledon\\OneDrive - Amadeus Workplace\\Documents\\GitHub\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj",
-      "packagesPath": "C:\\Users\\izeledon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\izeledon\\OneDrive - Amadeus Workplace\\Documents\\GitHub\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\obj\\",
+      "projectPath": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj",
+      "packagesPath": "C:\\Users\\Isaac Zeledon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\izeledon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Isaac Zeledon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -2,6 +2,8 @@ namespace Sistema_de_Venta_agricultura
 {
     public partial class Login : Form
     {
+        
+
         public Login()
         {
             InitializeComponent();
