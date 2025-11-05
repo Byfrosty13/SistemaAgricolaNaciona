@@ -39,13 +39,16 @@
             txtContra = new TextBox();
             btnRegistrar = new Button();
             btnregresar = new Button();
+            panel1 = new Panel();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(165, 73);
+            label1.Location = new Point(104, 71);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(529, 48);
@@ -103,7 +106,7 @@
             txtNombre.Location = new Point(215, 304);
             txtNombre.Margin = new Padding(4, 5, 4, 5);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(479, 44);
+            txtNombre.Size = new Size(497, 44);
             txtNombre.TabIndex = 6;
             // 
             // txtCedula
@@ -112,7 +115,7 @@
             txtCedula.Location = new Point(215, 394);
             txtCedula.Margin = new Padding(4, 5, 4, 5);
             txtCedula.Name = "txtCedula";
-            txtCedula.Size = new Size(479, 44);
+            txtCedula.Size = new Size(497, 44);
             txtCedula.TabIndex = 8;
             // 
             // txtCorreo
@@ -121,22 +124,22 @@
             txtCorreo.Location = new Point(215, 488);
             txtCorreo.Margin = new Padding(4, 5, 4, 5);
             txtCorreo.Name = "txtCorreo";
-            txtCorreo.Size = new Size(479, 44);
+            txtCorreo.Size = new Size(497, 44);
             txtCorreo.TabIndex = 9;
             // 
             // txtContra
             // 
             txtContra.Font = new Font("Baskerville Old Face", 16F);
-            txtContra.Location = new Point(214, 578);
+            txtContra.Location = new Point(196, 578);
             txtContra.Margin = new Padding(4, 5, 4, 5);
             txtContra.Name = "txtContra";
-            txtContra.Size = new Size(480, 44);
+            txtContra.Size = new Size(498, 44);
             txtContra.TabIndex = 10;
             // 
             // btnRegistrar
             // 
             btnRegistrar.Font = new Font("Baskerville Old Face", 16F);
-            btnRegistrar.Location = new Point(304, 690);
+            btnRegistrar.Location = new Point(214, 661);
             btnRegistrar.Margin = new Padding(4, 5, 4, 5);
             btnRegistrar.Name = "btnRegistrar";
             btnRegistrar.Size = new Size(245, 48);
@@ -148,7 +151,7 @@
             // btnregresar
             // 
             btnregresar.Font = new Font("Baskerville Old Face", 16F);
-            btnregresar.Location = new Point(304, 755);
+            btnregresar.Location = new Point(80, 652);
             btnregresar.Margin = new Padding(4, 5, 4, 5);
             btnregresar.Name = "btnregresar";
             btnregresar.Size = new Size(245, 45);
@@ -157,14 +160,23 @@
             btnregresar.UseVisualStyleBackColor = true;
             btnregresar.Click += btnregresar_Click;
             // 
+            // panel1
+            // 
+            panel1.BackColor = Color.Navy;
+            panel1.Controls.Add(btnregresar);
+            panel1.Location = new Point(387, 12);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(567, 1044);
+            panel1.TabIndex = 13;
+            // 
             // Registro
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(942, 1052);
-            Controls.Add(btnregresar);
-            Controls.Add(btnRegistrar);
+            Controls.Add(label1);
             Controls.Add(txtContra);
+            Controls.Add(btnRegistrar);
             Controls.Add(txtCorreo);
             Controls.Add(txtCedula);
             Controls.Add(txtNombre);
@@ -172,11 +184,12 @@
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label2);
-            Controls.Add(label1);
+            Controls.Add(panel1);
             Margin = new Padding(4, 5, 4, 5);
             Name = "Registro";
             Text = "Registro";
             Load += Registro_Load;
+            panel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -194,5 +207,6 @@
         private TextBox txtContra;
         private Button btnRegistrar;
         private Button btnregresar;
+        private Panel panel1;
     }
 }
