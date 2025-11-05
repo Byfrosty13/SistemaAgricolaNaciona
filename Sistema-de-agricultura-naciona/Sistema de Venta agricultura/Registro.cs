@@ -26,5 +26,18 @@ namespace Sistema_de_Venta_agricultura
         {
 
         }
+
+        private void btnRegistrar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnregresar_Click(object sender, EventArgs e)
+        {
+            Login inicio1 = new Login();
+            inicio1.Show();
+            this.Hide();
+
+        }
     }
 }

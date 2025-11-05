@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\izeledon\\source\\repos\\Byfrosty13\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj",
+      "projectUniqueName": "C:\\Users\\izeledon\\OneDrive - Amadeus Workplace\\Documents\\GitHub\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj",
       "projectName": "Sistema de Venta agricultura",
-      "projectPath": "C:\\Users\\izeledon\\source\\repos\\Byfrosty13\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj",
+      "projectPath": "C:\\Users\\izeledon\\OneDrive - Amadeus Workplace\\Documents\\GitHub\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj",
       "packagesPath": "C:\\Users\\izeledon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\izeledon\\source\\repos\\Byfrosty13\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\obj\\",
+      "outputPath": "C:\\Users\\izeledon\\OneDrive - Amadeus Workplace\\Documents\\GitHub\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
