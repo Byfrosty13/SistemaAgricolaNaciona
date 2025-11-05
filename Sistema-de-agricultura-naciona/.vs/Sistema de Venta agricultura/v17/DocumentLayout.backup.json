@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|solutionrelative:sistema de venta agricultura\\paginicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|C:\\Users\\izeledon\\OneDrive - Amadeus Workplace\\Documents\\GitHub\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\sistema de venta agricultura\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|solutionrelative:sistema de venta agricultura\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|c:\\users\\izeledon\\onedrive - amadeus workplace\\documents\\github\\sistemaagricolanaciona\\sistema-de-agricultura-naciona\\sistema de venta agricultura\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|solutionrelative:sistema de venta agricultura\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|c:\\users\\izeledon\\onedrive - amadeus workplace\\documents\\github\\sistemaagricolanaciona\\sistema-de-agricultura-naciona\\sistema de venta agricultura\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|solutionrelative:sistema de venta agricultura\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|C:\\Users\\izeledon\\OneDrive - Amadeus Workplace\\Documents\\GitHub\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\sistema de venta agricultura\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|solutionrelative:sistema de venta agricultura\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|c:\\users\\izeledon\\onedrive - amadeus workplace\\documents\\github\\sistemaagricolanaciona\\sistema-de-agricultura-naciona\\sistema de venta agricultura\\paginicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|solutionrelative:sistema de venta agricultura\\paginicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|c:\\users\\izeledon\\onedrive - amadeus workplace\\documents\\github\\sistemaagricolanaciona\\sistema-de-agricultura-naciona\\sistema de venta agricultura\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|solutionrelative:sistema de venta agricultura\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|c:\\users\\izeledon\\onedrive - amadeus workplace\\documents\\github\\sistemaagricolanaciona\\sistema-de-agricultura-naciona\\sistema de venta agricultura\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Registro.cs",
               "DocumentMoniker": "C:\\Users\\izeledon\\OneDrive - Amadeus Workplace\\Documents\\GitHub\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Registro.cs",
               "RelativeDocumentMoniker": "Sistema de Venta agricultura\\Registro.cs",
@@ -68,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "PagInicial.cs",
               "DocumentMoniker": "C:\\Users\\izeledon\\OneDrive - Amadeus Workplace\\Documents\\GitHub\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\PagInicial.cs",
               "RelativeDocumentMoniker": "Sistema de Venta agricultura\\PagInicial.cs",
@@ -81,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "C:\\Users\\izeledon\\OneDrive - Amadeus Workplace\\Documents\\GitHub\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Login.cs",
               "RelativeDocumentMoniker": "Sistema de Venta agricultura\\Login.cs",
@@ -93,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Registro.cs [Design]",
               "DocumentMoniker": "C:\\Users\\izeledon\\OneDrive - Amadeus Workplace\\Documents\\GitHub\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Registro.cs",
               "RelativeDocumentMoniker": "Sistema de Venta agricultura\\Registro.cs",
