@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|c:\\users\\isaac zeledon\\onedrive\\universidad\\tecnicas de progra\\sistemaagricolanaciona\\sistema-de-agricultura-naciona\\sistema de venta agricultura\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|solutionrelative:sistema de venta agricultura\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|c:\\users\\isaac zeledon\\onedrive\\universidad\\tecnicas de progra\\sistemaagricolanaciona\\sistema-de-agricultura-naciona\\sistema de venta agricultura\\clases\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|solutionrelative:sistema de venta agricultura\\clases\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|c:\\users\\isaac zeledon\\onedrive\\universidad\\tecnicas de progra\\sistemaagricolanaciona\\sistema-de-agricultura-naciona\\sistema de venta agricultura\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|solutionrelative:sistema de venta agricultura\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|c:\\users\\isaac zeledon\\onedrive\\universidad\\tecnicas de progra\\sistemaagricolanaciona\\sistema-de-agricultura-naciona\\sistema de venta agricultura\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|solutionrelative:sistema de venta agricultura\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|c:\\users\\isaac zeledon\\onedrive\\universidad\\tecnicas de progra\\sistemaagricolanaciona\\sistema-de-agricultura-naciona\\sistema de venta agricultura\\forms\\provedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Forms\\Form1.cs",
               "RelativeDocumentMoniker": "Sistema de Venta agricultura\\Forms\\Form1.cs",
@@ -82,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Horarios.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Forms\\Horarios.cs",
               "RelativeDocumentMoniker": "Sistema de Venta agricultura\\Forms\\Horarios.cs",
@@ -94,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Ubicaciones.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Forms\\Ubicaciones.cs",
               "RelativeDocumentMoniker": "Sistema de Venta agricultura\\Forms\\Ubicaciones.cs",
@@ -106,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Compras.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Forms\\Compras.cs",
               "RelativeDocumentMoniker": "Sistema de Venta agricultura\\Forms\\Compras.cs",
@@ -118,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AgregarUsuarios.cs",
               "DocumentMoniker": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Clases\\AgregarUsuarios.cs",
               "RelativeDocumentMoniker": "Sistema de Venta agricultura\\Clases\\AgregarUsuarios.cs",
@@ -131,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Usuarios.cs",
               "DocumentMoniker": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Clases\\Usuarios.cs",
               "RelativeDocumentMoniker": "Sistema de Venta agricultura\\Clases\\Usuarios.cs",
@@ -181,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Forms\\Login.cs",
               "RelativeDocumentMoniker": "Sistema de Venta agricultura\\Forms\\Login.cs",
