@@ -34,7 +34,6 @@ C:\Users\Isaac Zeledon\Source\Repos\Sistema-de-agricultura-naciona\Sistema de Ve
 C:\Users\Isaac Zeledon\Source\Repos\Sistema-de-agricultura-naciona\Sistema de Venta agricultura\obj\Debug\net8.0-windows\Sistema_de_Venta_agricultura.PagInicial.resources
 C:\Users\Isaac Zeledon\Source\Repos\Sistema-de-agricultura-naciona\Sistema de Venta agricultura\obj\Debug\net8.0-windows\Sistema_de_Venta_agricultura.Form1.resources
 C:\Users\Isaac Zeledon\OneDrive\Universidad\tecnicas de progra\SistemaAgricolaNaciona\Sistema-de-agricultura-naciona\Sistema de Venta agricultura\obj\Debug\net8.0-windows\Sistema_de_Venta_agricultura.Login.resources
-C:\Users\Isaac Zeledon\OneDrive\Universidad\tecnicas de progra\SistemaAgricolaNaciona\Sistema-de-agricultura-naciona\Sistema de Venta agricultura\obj\Debug\net8.0-windows\Sistema_de_Venta_agricultura.Registro.resources
 C:\Users\Isaac Zeledon\OneDrive\Universidad\tecnicas de progra\SistemaAgricolaNaciona\Sistema-de-agricultura-naciona\Sistema de Venta agricultura\obj\Debug\net8.0-windows\Sistema de Venta agricultura.csproj.GenerateResource.cache
 C:\Users\Isaac Zeledon\OneDrive\Universidad\tecnicas de progra\SistemaAgricolaNaciona\Sistema-de-agricultura-naciona\Sistema de Venta agricultura\obj\Debug\net8.0-windows\Sistema de Venta agricultura.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Isaac Zeledon\OneDrive\Universidad\tecnicas de progra\SistemaAgricolaNaciona\Sistema-de-agricultura-naciona\Sistema de Venta agricultura\obj\Debug\net8.0-windows\Sistema de Venta agricultura.AssemblyInfoInputs.cache
@@ -71,3 +70,4 @@ C:\Users\izeledon\OneDrive - Amadeus Workplace\Documents\GitHub\SistemaAgricolaN
 C:\Users\izeledon\OneDrive - Amadeus Workplace\Documents\GitHub\SistemaAgricolaNaciona\Sistema-de-agricultura-naciona\Sistema de Venta agricultura\obj\Debug\net8.0-windows\Sistema de Venta agricultura.pdb
 C:\Users\izeledon\OneDrive - Amadeus Workplace\Documents\GitHub\SistemaAgricolaNaciona\Sistema-de-agricultura-naciona\Sistema de Venta agricultura\obj\Debug\net8.0-windows\Sistema de Venta agricultura.genruntimeconfig.cache
 C:\Users\izeledon\OneDrive - Amadeus Workplace\Documents\GitHub\SistemaAgricolaNaciona\Sistema-de-agricultura-naciona\Sistema de Venta agricultura\obj\Debug\net8.0-windows\ref\Sistema de Venta agricultura.dll
+C:\Users\Isaac Zeledon\OneDrive\Universidad\tecnicas de progra\SistemaAgricolaNaciona\Sistema-de-agricultura-naciona\Sistema de Venta agricultura\obj\Debug\net8.0-windows\Sistema_de_Venta_agricultura.Registro.resources
