@@ -31,7 +31,7 @@ namespace Sistema_de_Venta_agricultura.Clases
 
         private void GuardarUsuarios() 
         {
-            string json = JsonSerializer.Serialize(Usuarios, new Json)
+           
         }
 
 

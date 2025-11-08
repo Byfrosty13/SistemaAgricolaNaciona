@@ -58,5 +58,23 @@ namespace Sistema_de_Venta_agricultura
             this.Hide();
 
         }
+
+        private void productosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Productos productos = new Productos();
+            productos.Show();
+            this.Hide();
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        {
+
+        }
     }
 }
