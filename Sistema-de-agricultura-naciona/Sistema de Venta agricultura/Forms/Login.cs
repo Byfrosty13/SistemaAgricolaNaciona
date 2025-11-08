@@ -61,12 +61,32 @@ namespace Sistema_de_Venta_agricultura
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            PagInicial paginicial = new PagInicial();
-            paginicial.Show();
-            this.Hide();
+            bool correcto = Clases.ManejoUsuarios.Login(txtuser.Text, txtpassword.Text);
+
+            if (correcto)
+            {
+                MessageBox.Show("Usuario Correcto ");
+                PagInicial paginicial = new PagInicial();
+                paginicial.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Inicio de sesión incorrecto revise el usuario o contraseña");
+            }
+
+
+
+
+
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

@@ -102,6 +102,8 @@
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(349, 32);
             txtNombre.TabIndex = 6;
+            txtNombre.TextChanged += txtNombre_TextChanged;
+            txtNombre.KeyPress += txtNombre_KeyPress;
             // 
             // txtCedula
             // 
@@ -110,6 +112,8 @@
             txtCedula.Name = "txtCedula";
             txtCedula.Size = new Size(349, 32);
             txtCedula.TabIndex = 8;
+            txtCedula.TextChanged += txtCedula_TextChanged;
+            txtCedula.KeyPress += txtCedula_KeyPress;
             // 
             // txtCorreo
             // 
@@ -122,9 +126,9 @@
             // txtContrasena
             // 
             txtContrasena.Font = new Font("Baskerville Old Face", 16F);
-            txtContrasena.Location = new Point(137, 347);
+            txtContrasena.Location = new Point(150, 350);
             txtContrasena.Name = "txtContrasena";
-            txtContrasena.Size = new Size(362, 32);
+            txtContrasena.Size = new Size(349, 32);
             txtContrasena.TabIndex = 10;
             // 
             // btnRegistrar

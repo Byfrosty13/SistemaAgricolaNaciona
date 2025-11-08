@@ -72,9 +72,10 @@
             label2.Font = new Font("Baskerville Old Face", 16F);
             label2.Location = new Point(575, 173);
             label2.Name = "label2";
-            label2.Size = new Size(55, 25);
+            label2.Size = new Size(75, 25);
             label2.TabIndex = 2;
-            label2.Text = "User";
+            label2.Text = "Correo";
+            label2.Click += label2_Click;
             // 
             // label3
             // 
@@ -114,8 +115,10 @@
             txtpassword.Font = new Font("Baskerville Old Face", 16F);
             txtpassword.Location = new Point(575, 276);
             txtpassword.Name = "txtpassword";
+            txtpassword.PasswordChar = '*';
             txtpassword.Size = new Size(266, 32);
             txtpassword.TabIndex = 6;
+            txtpassword.UseSystemPasswordChar = true;
             txtpassword.TextChanged += textBox2_TextChanged;
             // 
             // btnLimpiar
