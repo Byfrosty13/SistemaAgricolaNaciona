@@ -146,15 +146,14 @@
             panel1.BackColor = Color.Navy;
             panel1.Controls.Add(label1);
             panel1.Location = new Point(1, 2);
-            panel1.Margin = new Padding(2, 2, 2, 2);
+            panel1.Margin = new Padding(2);
             panel1.Name = "panel1";
             panel1.Size = new Size(516, 575);
             panel1.TabIndex = 9;
             // 
             // Login
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleMode = AutoScaleMode.None;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(1000, 577);
             Controls.Add(panel1);

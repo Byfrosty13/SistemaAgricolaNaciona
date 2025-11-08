@@ -16,5 +16,18 @@ namespace Sistema_de_Venta_agricultura.Forms
         {
             InitializeComponent();
         }
+
+        private void productosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Productos productos = new Productos();
+            productos.Show();
+            this.Hide();
+
+        }
+
+        private void registroProvedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

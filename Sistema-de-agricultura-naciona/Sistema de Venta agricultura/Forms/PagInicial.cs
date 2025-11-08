@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sistema_de_Venta_agricultura.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,6 +20,42 @@ namespace Sistema_de_Venta_agricultura
 
         private void label1_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void provedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Provedores provedor = new Provedores();
+            provedor.Show();
+            this.Hide();
+
+        }
+
+        private void ubicacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Ubicaciones ubicaciones = new Ubicaciones();
+            ubicaciones.Show();
+            this.Hide();
+        }
+
+        private void registroProvedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RegistrarProvedores registroProvedor = new RegistrarProvedores();
+            registroProvedor.Show();
+            this.Hide();
+
+        }
+
+        private void actualizarDatosDeCuentaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CuentaUser cuentaUser = new CuentaUser();
+            cuentaUser.Show();
+            this.Hide();
 
         }
     }

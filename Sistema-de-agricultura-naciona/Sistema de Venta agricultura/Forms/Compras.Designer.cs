@@ -28,10 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Compras";
+            SuspendLayout();
+            // 
+            // Compras
+            // 
+            AutoScaleMode = AutoScaleMode.None;
+            ClientSize = new Size(1000, 577);
+            Name = "Compras";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Compras";
+            ResumeLayout(false);
         }
 
         #endregion

@@ -161,8 +161,7 @@
             // 
             // Registro
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleMode = AutoScaleMode.None;
             ClientSize = new Size(659, 631);
             Controls.Add(label1);
             Controls.Add(txtContra);
@@ -176,6 +175,7 @@
             Controls.Add(label2);
             Controls.Add(panel1);
             Name = "Registro";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Registro";
             Load += Registro_Load;
             panel1.ResumeLayout(false);
