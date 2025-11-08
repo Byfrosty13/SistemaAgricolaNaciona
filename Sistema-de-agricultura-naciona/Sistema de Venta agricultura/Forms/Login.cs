@@ -2,7 +2,7 @@ namespace Sistema_de_Venta_agricultura
 {
     public partial class Login : Form
     {
-        
+
 
         public Login()
         {
@@ -47,7 +47,7 @@ namespace Sistema_de_Venta_agricultura
 
         private void btntest_Click(object sender, EventArgs e)
         {
-           
+
 
 
         }
@@ -64,6 +64,11 @@ namespace Sistema_de_Venta_agricultura
             PagInicial paginicial = new PagInicial();
             paginicial.Show();
             this.Hide();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

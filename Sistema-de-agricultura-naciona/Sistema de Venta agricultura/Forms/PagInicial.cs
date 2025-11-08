@@ -76,5 +76,10 @@ namespace Sistema_de_Venta_agricultura
         {
 
         }
+
+        private void horariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

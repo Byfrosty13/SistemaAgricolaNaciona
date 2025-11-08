@@ -36,7 +36,7 @@
             txtNombre = new TextBox();
             txtCedula = new TextBox();
             txtCorreo = new TextBox();
-            txtContra = new TextBox();
+            txtContrasena = new TextBox();
             btnRegistrar = new Button();
             btnregresar = new Button();
             panel1 = new Panel();
@@ -119,13 +119,13 @@
             txtCorreo.Size = new Size(349, 32);
             txtCorreo.TabIndex = 9;
             // 
-            // txtContra
+            // txtContrasena
             // 
-            txtContra.Font = new Font("Baskerville Old Face", 16F);
-            txtContra.Location = new Point(137, 347);
-            txtContra.Name = "txtContra";
-            txtContra.Size = new Size(362, 32);
-            txtContra.TabIndex = 10;
+            txtContrasena.Font = new Font("Baskerville Old Face", 16F);
+            txtContrasena.Location = new Point(137, 347);
+            txtContrasena.Name = "txtContrasena";
+            txtContrasena.Size = new Size(362, 32);
+            txtContrasena.TabIndex = 10;
             // 
             // btnRegistrar
             // 
@@ -164,7 +164,7 @@
             AutoScaleMode = AutoScaleMode.None;
             ClientSize = new Size(659, 631);
             Controls.Add(label1);
-            Controls.Add(txtContra);
+            Controls.Add(txtContrasena);
             Controls.Add(btnRegistrar);
             Controls.Add(txtCorreo);
             Controls.Add(txtCedula);
@@ -193,7 +193,7 @@
         private TextBox txtNombre;
         private TextBox txtCedula;
         private TextBox txtCorreo;
-        private TextBox txtContra;
+        private TextBox txtContrasena;
         private Button btnRegistrar;
         private Button btnregresar;
         private Panel panel1;

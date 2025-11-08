@@ -13,6 +13,7 @@ namespace Sistema_de_Venta_agricultura.Forms
     public partial class Ubicaciones : Form
     {
         //Diccionario de ubicaciones,  provicia, canton, distrito porque que pereza escribir todo manual en los checkbox :v
+        // Nota mental agregar las zonas donde hay ferias , me quedo pendiente eso , pero ya funciona almenos el checkbox solo es agregar las ferias centrales
         private Dictionary<string, Dictionary<string, List<string>>> ubicaciones =
            new Dictionary<string, Dictionary<string, List<string>>>()
           {
@@ -138,12 +139,16 @@ namespace Sistema_de_Venta_agricultura.Forms
         public Ubicaciones()
         {
             InitializeComponent();
-            CargarProvicias();
-            checkedListBoxProvincias.SelectedIndexChanged += ProviciaSelecionada;
-            CheckedListBoxCanton.SelectedIndexChanged += CantonSeleccionado;
+            CargarProvincias();
+
+
+            checkedListBoxProvincias.SelectedIndexChanged += ProvinciaSeleccionada;
+            CheckedListBoxCantones.SelectedIndexChanged += CantonSeleccionado;
+            checkedListBoxDistritos.SelectedIndexChanged += DistritoSeleccionado;
         }
-        //cargar Provicias en el checkedListBoxProvincias
-        private void CargarProvicias()
+
+        // para cargar provicias
+        private void CargarProvincias()
         {
             checkedListBoxProvincias.Items.Clear();
 
@@ -153,46 +158,51 @@ namespace Sistema_de_Venta_agricultura.Forms
             }
         }
 
-        //al seleccionar una provincia, cargar los cantones correspondientes
-
-        private void ProviciaSelecionada(object sender, EventArgs e)
+        private void ProvinciaSeleccionada(object sender, EventArgs e)
         {
             if (checkedListBoxProvincias.SelectedItem == null)
                 return;
 
             string provincia = checkedListBoxProvincias.SelectedItem.ToString();
 
-            checkedListBoxProvincias.Items.Clear();
+            // Limpiar cantones y distritos al cambiar provincia
+            CheckedListBoxCantones.Items.Clear();
             checkedListBoxDistritos.Items.Clear();
 
             foreach (var canton in ubicaciones[provincia].Keys)
             {
-                CheckedListBoxCanton.Items.Add(canton);
+                CheckedListBoxCantones.Items.Add(canton);
             }
-
         }
 
-        //al selecionar un canton
 
+        // para los cantones
         private void CantonSeleccionado(object sender, EventArgs e)
         {
             if (checkedListBoxProvincias.SelectedItem == null ||
-                CheckedListBoxCanton.SelectedItem == null)
+                CheckedListBoxCantones.SelectedItem == null)
                 return;
 
             string provincia = checkedListBoxProvincias.SelectedItem.ToString();
-            string canton = CheckedListBoxCanton.SelectedItem.ToString();
+            string canton = CheckedListBoxCantones.SelectedItem.ToString();
 
+            // Limpiar distritos antes de cargar
             checkedListBoxDistritos.Items.Clear();
 
             foreach (var distrito in ubicaciones[provincia][canton])
             {
-                checkedListBoxDistritos.Items.Add (distrito);
-
+                checkedListBoxDistritos.Items.Add(distrito);
             }
-
-                
         }
+
+        // y distritos , solo me queda revisar porque chingados no me carga los distritos
+        private void DistritoSeleccionado(object sender, EventArgs e)
+        {
+            //esto nada mas para que me funcione el selecionar de distritos
+        }
+
+
+
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -201,6 +211,22 @@ namespace Sistema_de_Venta_agricultura.Forms
 
         private void Ubicaciones_Load(object sender, EventArgs e)
         {
+
+        }
+
+        private void CheckedListBoxCanton_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            checkedListBoxProvincias.ClearSelected();
+            CheckedListBoxCantones.Items.Clear();
+            checkedListBoxDistritos.Items.Clear();
+
+            
+            CargarProvincias();
 
         }
     }

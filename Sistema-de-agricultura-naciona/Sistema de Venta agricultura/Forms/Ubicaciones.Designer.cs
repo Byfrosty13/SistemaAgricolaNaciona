@@ -37,8 +37,9 @@
             helpProvider1 = new HelpProvider();
             label2 = new Label();
             checkedListBoxProvincias = new CheckedListBox();
-            CheckedListBoxCanton = new CheckedListBox();
+            CheckedListBoxCantones = new CheckedListBox();
             checkedListBoxDistritos = new CheckedListBox();
+            btnLimpiar = new Button();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -106,28 +107,42 @@
             checkedListBoxProvincias.TabIndex = 13;
             checkedListBoxProvincias.SelectedIndexChanged += checkedListBox1_SelectedIndexChanged;
             // 
-            // CheckedListBoxCanton
+            // CheckedListBoxCantones
             // 
-            CheckedListBoxCanton.FormattingEnabled = true;
-            CheckedListBoxCanton.Location = new Point(240, 140);
-            CheckedListBoxCanton.Name = "CheckedListBoxCanton";
-            CheckedListBoxCanton.Size = new Size(120, 112);
-            CheckedListBoxCanton.TabIndex = 14;
+            CheckedListBoxCantones.FormattingEnabled = true;
+            CheckedListBoxCantones.Items.AddRange(new object[] { "" });
+            CheckedListBoxCantones.Location = new Point(240, 140);
+            CheckedListBoxCantones.Name = "CheckedListBoxCantones";
+            CheckedListBoxCantones.Size = new Size(120, 112);
+            CheckedListBoxCantones.TabIndex = 14;
+            CheckedListBoxCantones.SelectedIndexChanged += CheckedListBoxCanton_SelectedIndexChanged;
             // 
             // checkedListBoxDistritos
             // 
             checkedListBoxDistritos.FormattingEnabled = true;
+            checkedListBoxDistritos.Items.AddRange(new object[] { "" });
             checkedListBoxDistritos.Location = new Point(398, 140);
             checkedListBoxDistritos.Name = "checkedListBoxDistritos";
             checkedListBoxDistritos.Size = new Size(120, 112);
             checkedListBoxDistritos.TabIndex = 15;
             // 
+            // btnLimpiar
+            // 
+            btnLimpiar.Location = new Point(135, 356);
+            btnLimpiar.Name = "btnLimpiar";
+            btnLimpiar.Size = new Size(75, 23);
+            btnLimpiar.TabIndex = 16;
+            btnLimpiar.Text = "Limpiar";
+            btnLimpiar.UseVisualStyleBackColor = true;
+            btnLimpiar.Click += btnLimpiar_Click;
+            // 
             // Ubicaciones
             // 
             AutoScaleMode = AutoScaleMode.None;
             ClientSize = new Size(1000, 577);
+            Controls.Add(btnLimpiar);
             Controls.Add(checkedListBoxDistritos);
-            Controls.Add(CheckedListBoxCanton);
+            Controls.Add(CheckedListBoxCantones);
             Controls.Add(checkedListBoxProvincias);
             Controls.Add(label2);
             Controls.Add(menuStrip1);
@@ -152,7 +167,8 @@
         private HelpProvider helpProvider1;
         private Label label2;
         private CheckedListBox checkedListBoxProvincias;
-        private CheckedListBox CheckedListBoxCanton;
+        private CheckedListBox CheckedListBoxCantones;
         private CheckedListBox checkedListBoxDistritos;
+        private Button btnLimpiar;
     }
 }

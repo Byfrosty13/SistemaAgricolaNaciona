@@ -33,6 +33,7 @@
             ubicacionToolStripMenuItem = new ToolStripMenuItem();
             horariosToolStripMenuItem = new ToolStripMenuItem();
             productosToolStripMenuItem = new ToolStripMenuItem();
+            carritoCompraToolStripMenuItem = new ToolStripMenuItem();
             registroProvedorToolStripMenuItem = new ToolStripMenuItem();
             actualizarDatosDeCuentaToolStripMenuItem = new ToolStripMenuItem();
             lbluser = new Label();
@@ -43,7 +44,6 @@
             monthCalendar1 = new MonthCalendar();
             label3 = new Label();
             linkLabel1 = new LinkLabel();
-            carritoCompraToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -86,6 +86,7 @@
             horariosToolStripMenuItem.Name = "horariosToolStripMenuItem";
             horariosToolStripMenuItem.Size = new Size(102, 29);
             horariosToolStripMenuItem.Text = "Horarios";
+            horariosToolStripMenuItem.Click += horariosToolStripMenuItem_Click;
             // 
             // productosToolStripMenuItem
             // 
@@ -94,11 +95,17 @@
             productosToolStripMenuItem.Text = "Productos";
             productosToolStripMenuItem.Click += productosToolStripMenuItem_Click;
             // 
+            // carritoCompraToolStripMenuItem
+            // 
+            carritoCompraToolStripMenuItem.Name = "carritoCompraToolStripMenuItem";
+            carritoCompraToolStripMenuItem.Size = new Size(165, 29);
+            carritoCompraToolStripMenuItem.Text = "Carrito Compra";
+            // 
             // registroProvedorToolStripMenuItem
             // 
             registroProvedorToolStripMenuItem.Name = "registroProvedorToolStripMenuItem";
-            registroProvedorToolStripMenuItem.Size = new Size(182, 29);
-            registroProvedorToolStripMenuItem.Text = "Registro provedor";
+            registroProvedorToolStripMenuItem.Size = new Size(131, 29);
+            registroProvedorToolStripMenuItem.Text = "Productores";
             registroProvedorToolStripMenuItem.Click += registroProvedorToolStripMenuItem_Click;
             // 
             // actualizarDatosDeCuentaToolStripMenuItem
@@ -171,12 +178,6 @@
             linkLabel1.TabIndex = 9;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Tomate Sube un 15 descubra mas sobre el tema";
-            // 
-            // carritoCompraToolStripMenuItem
-            // 
-            carritoCompraToolStripMenuItem.Name = "carritoCompraToolStripMenuItem";
-            carritoCompraToolStripMenuItem.Size = new Size(165, 29);
-            carritoCompraToolStripMenuItem.Text = "Carrito Compra";
             // 
             // PagInicial
             // 
