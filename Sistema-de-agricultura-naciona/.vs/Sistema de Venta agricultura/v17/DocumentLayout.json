@@ -3,35 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|c:\\users\\isaac zeledon\\onedrive\\universidad\\tecnicas de progra\\sistemaagricolanaciona\\sistema-de-agricultura-naciona\\sistema de venta agricultura\\forms\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|solutionrelative:sistema de venta agricultura\\forms\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|c:\\users\\isaac zeledon\\onedrive\\universidad\\tecnicas de progra\\sistemaagricolanaciona\\sistema-de-agricultura-naciona\\sistema de venta agricultura\\forms\\paginicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|solutionrelative:sistema de venta agricultura\\forms\\paginicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|c:\\users\\isaac zeledon\\onedrive\\universidad\\tecnicas de progra\\sistemaagricolanaciona\\sistema-de-agricultura-naciona\\sistema de venta agricultura\\forms\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|solutionrelative:sistema de venta agricultura\\forms\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|c:\\users\\isaac zeledon\\onedrive\\universidad\\tecnicas de progra\\sistemaagricolanaciona\\sistema-de-agricultura-naciona\\sistema de venta agricultura\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|solutionrelative:sistema de venta agricultura\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|c:\\users\\isaac zeledon\\onedrive\\universidad\\tecnicas de progra\\sistemaagricolanaciona\\sistema-de-agricultura-naciona\\sistema de venta agricultura\\forms\\horarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|solutionrelative:sistema de venta agricultura\\forms\\horarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|c:\\users\\isaac zeledon\\onedrive\\universidad\\tecnicas de progra\\sistemaagricolanaciona\\sistema-de-agricultura-naciona\\sistema de venta agricultura\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|solutionrelative:sistema de venta agricultura\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|c:\\users\\isaac zeledon\\onedrive\\universidad\\tecnicas de progra\\sistemaagricolanaciona\\sistema-de-agricultura-naciona\\sistema de venta agricultura\\clases\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|solutionrelative:sistema de venta agricultura\\clases\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|c:\\users\\isaac zeledon\\onedrive\\universidad\\tecnicas de progra\\sistemaagricolanaciona\\sistema-de-agricultura-naciona\\sistema de venta agricultura\\clases\\manejousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|solutionrelative:sistema de venta agricultura\\clases\\manejousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\sistema de venta agricultura\\forms\\paginicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|c:\\users\\isaac zeledon\\onedrive\\universidad\\tecnicas de progra\\sistemaagricolanaciona\\sistema-de-agricultura-naciona\\sistema de venta agricultura\\forms\\paginicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AFD66795-1DBD-4A84-8BBD-62F54B5D6C4E}|Sistema de Venta agricultura\\Sistema de Venta agricultura.csproj|solutionrelative:sistema de venta agricultura\\forms\\paginicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -42,106 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ManejoUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Clases\\ManejoUsuarios.cs",
-              "RelativeDocumentMoniker": "Sistema de Venta agricultura\\Clases\\ManejoUsuarios.cs",
-              "ToolTip": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Clases\\ManejoUsuarios.cs",
-              "RelativeToolTip": "Sistema de Venta agricultura\\Clases\\ManejoUsuarios.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCUAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T22:52:51.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Usuarios.cs",
-              "DocumentMoniker": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Clases\\Usuarios.cs",
-              "RelativeDocumentMoniker": "Sistema de Venta agricultura\\Clases\\Usuarios.cs",
-              "ToolTip": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Clases\\Usuarios.cs",
-              "RelativeToolTip": "Sistema de Venta agricultura\\Clases\\Usuarios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T22:52:02.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Registro.cs",
-              "DocumentMoniker": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Forms\\Registro.cs",
-              "RelativeDocumentMoniker": "Sistema de Venta agricultura\\Forms\\Registro.cs",
-              "ToolTip": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Forms\\Registro.cs",
-              "RelativeToolTip": "Sistema de Venta agricultura\\Forms\\Registro.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAD4v2gAAAAAAAAAAAAAAA==",
+              "Title": "PagInicial.cs",
+              "DocumentMoniker": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Forms\\PagInicial.cs",
+              "RelativeDocumentMoniker": "Sistema de Venta agricultura\\Forms\\PagInicial.cs",
+              "ToolTip": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Forms\\PagInicial.cs",
+              "RelativeToolTip": "Sistema de Venta agricultura\\Forms\\PagInicial.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAtwFsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T22:51:47.439Z",
+              "WhenOpened": "2025-11-09T00:37:40.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Registro.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Forms\\Registro.cs",
-              "RelativeDocumentMoniker": "Sistema de Venta agricultura\\Forms\\Registro.cs",
-              "ToolTip": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Forms\\Registro.cs [Design]",
-              "RelativeToolTip": "Sistema de Venta agricultura\\Forms\\Registro.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T22:51:46.334Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Forms\\Login.cs",
-              "RelativeDocumentMoniker": "Sistema de Venta agricultura\\Forms\\Login.cs",
-              "ToolTip": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Forms\\Login.cs",
-              "RelativeToolTip": "Sistema de Venta agricultura\\Forms\\Login.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAtwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T22:50:23.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Forms\\Login.cs",
-              "RelativeDocumentMoniker": "Sistema de Venta agricultura\\Forms\\Login.cs",
-              "ToolTip": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Forms\\Login.cs [Design]",
-              "RelativeToolTip": "Sistema de Venta agricultura\\Forms\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T22:49:51.86Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Horarios.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Forms\\Horarios.cs",
-              "RelativeDocumentMoniker": "Sistema de Venta agricultura\\Forms\\Horarios.cs",
-              "ToolTip": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Forms\\Horarios.cs [Design]",
-              "RelativeToolTip": "Sistema de Venta agricultura\\Forms\\Horarios.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T22:47:27.594Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "PagInicial.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Forms\\PagInicial.cs",
               "RelativeDocumentMoniker": "Sistema de Venta agricultura\\Forms\\PagInicial.cs",
               "ToolTip": "C:\\Users\\Isaac Zeledon\\OneDrive\\Universidad\\tecnicas de progra\\SistemaAgricolaNaciona\\Sistema-de-agricultura-naciona\\Sistema de Venta agricultura\\Forms\\PagInicial.cs [Design]",
               "RelativeToolTip": "Sistema de Venta agricultura\\Forms\\PagInicial.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T18:04:48.051Z",
+              "WhenOpened": "2025-11-09T00:37:28.84Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -45,9 +45,10 @@ namespace Sistema_de_Venta_agricultura
 
         private void registroProvedorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            RegistrarProvedores registroProvedor = new RegistrarProvedores();
-            registroProvedor.Show();
+            Provedores provedor = new Provedores();
+            provedor.Show();
             this.Hide();
+
 
         }
 
@@ -78,6 +79,20 @@ namespace Sistema_de_Venta_agricultura
         }
 
         private void horariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Horarios horarios = new Horarios();
+            horarios.Show();
+            this.Hide();
+
+        }
+
+        private void salriToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            Application.Exit();
+        }
+
+        private void carritoCompraToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }

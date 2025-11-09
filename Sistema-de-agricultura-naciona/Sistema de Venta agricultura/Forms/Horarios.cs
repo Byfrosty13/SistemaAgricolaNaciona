@@ -16,5 +16,35 @@ namespace Sistema_de_Venta_agricultura.Forms
         {
             InitializeComponent();
         }
+
+        private void ubicacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PagInicial paginicial = new PagInicial();
+            paginicial.Show();
+            this.Hide();
+        }
+
+        private void carritoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CarritoCompra carritoCompra = new CarritoCompra();
+            carritoCompra.Show();
+            this.Hide();
+
+        }
+
+        private void registroProvedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RegistrarProvedores registrarProvedores = new RegistrarProvedores();
+            registrarProvedores.Show();
+            this.Hide();
+
+        }
+
+        private void actualizarDatosDeCuentaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CuentaUser cuentaUser = new CuentaUser();
+            cuentaUser.Show();
+            this.Hide();
+        }
     }
 }

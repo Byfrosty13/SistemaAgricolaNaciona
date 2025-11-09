@@ -29,5 +29,13 @@ namespace Sistema_de_Venta_agricultura.Forms
         {
 
         }
+
+        private void registroProvedorToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            RegistrarProvedores registrarProvedores = new RegistrarProvedores();
+            registrarProvedores.Show();
+            this.Hide();
+
+        }
     }
 }
