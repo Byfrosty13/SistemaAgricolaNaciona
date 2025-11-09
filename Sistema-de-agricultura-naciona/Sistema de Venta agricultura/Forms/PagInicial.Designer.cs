@@ -66,7 +66,7 @@
             menuStrip1.BackgroundImageLayout = ImageLayout.Center;
             menuStrip1.Font = new Font("Baskerville Old Face", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
             menuStrip1.ImageScalingSize = new Size(24, 24);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { ubicacionToolStripMenuItem, horariosToolStripMenuItem, productosToolStripMenuItem, carritoCompraToolStripMenuItem, registroProvedorToolStripMenuItem, actualizarDatosDeCuentaToolStripMenuItem, salriToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { ubicacionToolStripMenuItem, horariosToolStripMenuItem, registroProvedorToolStripMenuItem, productosToolStripMenuItem, carritoCompraToolStripMenuItem, actualizarDatosDeCuentaToolStripMenuItem, salriToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Padding = new Padding(4, 1, 0, 1);

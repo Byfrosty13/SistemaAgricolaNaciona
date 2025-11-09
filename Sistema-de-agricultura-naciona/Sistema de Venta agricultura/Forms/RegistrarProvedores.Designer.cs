@@ -28,52 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
             menuStrip1 = new MenuStrip();
             ubicacionToolStripMenuItem = new ToolStripMenuItem();
-            horariosToolStripMenuItem = new ToolStripMenuItem();
             productosToolStripMenuItem = new ToolStripMenuItem();
+            carritoToolStripMenuItem = new ToolStripMenuItem();
+            registroProvedorToolStripMenuItem = new ToolStripMenuItem();
             actualizarDatosDeCuentaToolStripMenuItem = new ToolStripMenuItem();
-            lbluser = new Label();
-            inicioToolStripMenuItem = new ToolStripMenuItem();
+            toolStripMenuItem1 = new ToolStripMenuItem();
+            helpProvider1 = new HelpProvider();
+            Cedula = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            txtProductor = new TextBox();
+            txtNombre = new TextBox();
+            txtTelefono = new TextBox();
+            txtDireccion = new TextBox();
+            btnGuardar = new Button();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Baskerville Old Face", 14.25F, FontStyle.Bold);
-            label1.Location = new Point(321, 320);
-            label1.Name = "label1";
-            label1.Size = new Size(109, 22);
-            label1.TabIndex = 3;
-            label1.Text = "Bienvenido";
-            // 
             // menuStrip1
             // 
-            menuStrip1.BackColor = Color.RoyalBlue;
+            menuStrip1.BackColor = Color.GreenYellow;
             menuStrip1.BackgroundImageLayout = ImageLayout.Center;
             menuStrip1.Font = new Font("Baskerville Old Face", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
             menuStrip1.ImageScalingSize = new Size(24, 24);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { inicioToolStripMenuItem, ubicacionToolStripMenuItem, horariosToolStripMenuItem, productosToolStripMenuItem, actualizarDatosDeCuentaToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { ubicacionToolStripMenuItem, productosToolStripMenuItem, carritoToolStripMenuItem, registroProvedorToolStripMenuItem, actualizarDatosDeCuentaToolStripMenuItem, toolStripMenuItem1 });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Padding = new Padding(4, 1, 0, 1);
-            menuStrip1.Size = new Size(1000, 31);
-            menuStrip1.TabIndex = 4;
+            menuStrip1.Size = new Size(520, 31);
+            menuStrip1.TabIndex = 20;
             menuStrip1.Text = "menuStrip1";
             // 
             // ubicacionToolStripMenuItem
             // 
             ubicacionToolStripMenuItem.Name = "ubicacionToolStripMenuItem";
-            ubicacionToolStripMenuItem.Size = new Size(111, 29);
-            ubicacionToolStripMenuItem.Text = "Ubicacion";
-            // 
-            // horariosToolStripMenuItem
-            // 
-            horariosToolStripMenuItem.Name = "horariosToolStripMenuItem";
-            horariosToolStripMenuItem.Size = new Size(102, 29);
-            horariosToolStripMenuItem.Text = "Horarios";
+            ubicacionToolStripMenuItem.Size = new Size(73, 29);
+            ubicacionToolStripMenuItem.Text = "Inicio";
             // 
             // productosToolStripMenuItem
             // 
@@ -81,36 +74,130 @@
             productosToolStripMenuItem.Size = new Size(113, 29);
             productosToolStripMenuItem.Text = "Productos";
             // 
+            // carritoToolStripMenuItem
+            // 
+            carritoToolStripMenuItem.Name = "carritoToolStripMenuItem";
+            carritoToolStripMenuItem.Size = new Size(86, 29);
+            carritoToolStripMenuItem.Text = "Carrito";
+            // 
+            // registroProvedorToolStripMenuItem
+            // 
+            registroProvedorToolStripMenuItem.Name = "registroProvedorToolStripMenuItem";
+            registroProvedorToolStripMenuItem.Size = new Size(113, 29);
+            registroProvedorToolStripMenuItem.Text = "Productor";
+            // 
             // actualizarDatosDeCuentaToolStripMenuItem
             // 
             actualizarDatosDeCuentaToolStripMenuItem.Name = "actualizarDatosDeCuentaToolStripMenuItem";
             actualizarDatosDeCuentaToolStripMenuItem.Size = new Size(86, 29);
             actualizarDatosDeCuentaToolStripMenuItem.Text = "Cuenta";
             // 
-            // lbluser
+            // toolStripMenuItem1
             // 
-            lbluser.AutoSize = true;
-            lbluser.Font = new Font("Baskerville Old Face", 14.25F, FontStyle.Bold);
-            lbluser.Location = new Point(454, 320);
-            lbluser.Name = "lbluser";
-            lbluser.Size = new Size(93, 22);
-            lbluser.TabIndex = 5;
-            lbluser.Text = "(Persona)";
+            toolStripMenuItem1.Name = "toolStripMenuItem1";
+            toolStripMenuItem1.Size = new Size(12, 29);
             // 
-            // inicioToolStripMenuItem
+            // Cedula
             // 
-            inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
-            inicioToolStripMenuItem.Size = new Size(73, 29);
-            inicioToolStripMenuItem.Text = "Inicio";
+            Cedula.AutoSize = true;
+            Cedula.Font = new Font("Baskerville Old Face", 14.25F);
+            Cedula.Location = new Point(63, 127);
+            Cedula.Name = "Cedula";
+            Cedula.Size = new Size(110, 22);
+            Cedula.TabIndex = 21;
+            Cedula.Text = "Id Productor";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Baskerville Old Face", 14.25F);
+            label2.Location = new Point(63, 167);
+            label2.Name = "label2";
+            label2.Size = new Size(75, 22);
+            label2.TabIndex = 22;
+            label2.Text = "Nombre";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Baskerville Old Face", 14.25F);
+            label3.Location = new Point(63, 211);
+            label3.Name = "label3";
+            label3.Size = new Size(81, 22);
+            label3.TabIndex = 23;
+            label3.Text = "Telefono";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Baskerville Old Face", 14.25F);
+            label4.Location = new Point(63, 248);
+            label4.Name = "label4";
+            label4.Size = new Size(87, 22);
+            label4.TabIndex = 24;
+            label4.Text = "Direccion";
+            // 
+            // txtProductor
+            // 
+            txtProductor.Font = new Font("Baskerville Old Face", 14.25F);
+            txtProductor.Location = new Point(199, 120);
+            txtProductor.Name = "txtProductor";
+            txtProductor.Size = new Size(258, 29);
+            txtProductor.TabIndex = 25;
+            txtProductor.TextChanged += txtProductor_TextChanged;
+            txtProductor.KeyPress += txtProductor_KeyPress;
+            // 
+            // txtNombre
+            // 
+            txtNombre.Font = new Font("Baskerville Old Face", 14.25F);
+            txtNombre.Location = new Point(199, 160);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(258, 29);
+            txtNombre.TabIndex = 26;
+            // 
+            // txtTelefono
+            // 
+            txtTelefono.Font = new Font("Baskerville Old Face", 14.25F);
+            txtTelefono.Location = new Point(199, 204);
+            txtTelefono.Name = "txtTelefono";
+            txtTelefono.Size = new Size(258, 29);
+            txtTelefono.TabIndex = 27;
+            txtTelefono.TextChanged += txtTelefono_TextChanged;
+            // 
+            // txtDireccion
+            // 
+            txtDireccion.Font = new Font("Baskerville Old Face", 14.25F);
+            txtDireccion.Location = new Point(199, 241);
+            txtDireccion.Name = "txtDireccion";
+            txtDireccion.Size = new Size(258, 29);
+            txtDireccion.TabIndex = 28;
+            // 
+            // btnGuardar
+            // 
+            btnGuardar.Font = new Font("Baskerville Old Face", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnGuardar.Location = new Point(199, 321);
+            btnGuardar.Name = "btnGuardar";
+            btnGuardar.Size = new Size(92, 30);
+            btnGuardar.TabIndex = 29;
+            btnGuardar.Text = "Guardar";
+            btnGuardar.UseVisualStyleBackColor = true;
+            btnGuardar.Click += btnGuardar_Click;
             // 
             // RegistrarProvedores
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1000, 577);
-            Controls.Add(label1);
+            ClientSize = new Size(520, 577);
+            Controls.Add(btnGuardar);
+            Controls.Add(txtDireccion);
+            Controls.Add(txtTelefono);
+            Controls.Add(txtNombre);
+            Controls.Add(txtProductor);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(Cedula);
             Controls.Add(menuStrip1);
-            Controls.Add(lbluser);
             Name = "RegistrarProvedores";
             Text = "RegistrarProvedores";
             menuStrip1.ResumeLayout(false);
@@ -121,13 +208,22 @@
 
         #endregion
 
-        private Label label1;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem ubicacionToolStripMenuItem;
-        private ToolStripMenuItem horariosToolStripMenuItem;
         private ToolStripMenuItem productosToolStripMenuItem;
+        private ToolStripMenuItem carritoToolStripMenuItem;
+        private ToolStripMenuItem registroProvedorToolStripMenuItem;
         private ToolStripMenuItem actualizarDatosDeCuentaToolStripMenuItem;
-        private Label lbluser;
-        private ToolStripMenuItem inicioToolStripMenuItem;
+        private ToolStripMenuItem toolStripMenuItem1;
+        private HelpProvider helpProvider1;
+        private Label Cedula;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private TextBox txtProductor;
+        private TextBox txtNombre;
+        private TextBox txtTelefono;
+        private TextBox txtDireccion;
+        private Button btnGuardar;
     }
 }

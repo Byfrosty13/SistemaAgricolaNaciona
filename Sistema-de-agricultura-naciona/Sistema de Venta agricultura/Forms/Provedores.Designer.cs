@@ -34,7 +34,6 @@
             carritoToolStripMenuItem = new ToolStripMenuItem();
             registroProvedorToolStripMenuItem = new ToolStripMenuItem();
             actualizarDatosDeCuentaToolStripMenuItem = new ToolStripMenuItem();
-            toolStripMenuItem1 = new ToolStripMenuItem();
             helpProvider1 = new HelpProvider();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -45,7 +44,7 @@
             menuStrip1.BackgroundImageLayout = ImageLayout.Center;
             menuStrip1.Font = new Font("Baskerville Old Face", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
             menuStrip1.ImageScalingSize = new Size(24, 24);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { ubicacionToolStripMenuItem, productosToolStripMenuItem, carritoToolStripMenuItem, registroProvedorToolStripMenuItem, actualizarDatosDeCuentaToolStripMenuItem, toolStripMenuItem1 });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { ubicacionToolStripMenuItem, productosToolStripMenuItem, carritoToolStripMenuItem, registroProvedorToolStripMenuItem, actualizarDatosDeCuentaToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Padding = new Padding(4, 1, 0, 1);
@@ -84,11 +83,6 @@
             actualizarDatosDeCuentaToolStripMenuItem.Size = new Size(86, 29);
             actualizarDatosDeCuentaToolStripMenuItem.Text = "Cuenta";
             // 
-            // toolStripMenuItem1
-            // 
-            toolStripMenuItem1.Name = "toolStripMenuItem1";
-            toolStripMenuItem1.Size = new Size(12, 29);
-            // 
             // Provedores
             // 
             AutoScaleMode = AutoScaleMode.None;
@@ -111,7 +105,6 @@
         private ToolStripMenuItem carritoToolStripMenuItem;
         private ToolStripMenuItem registroProvedorToolStripMenuItem;
         private ToolStripMenuItem actualizarDatosDeCuentaToolStripMenuItem;
-        private ToolStripMenuItem toolStripMenuItem1;
         private HelpProvider helpProvider1;
     }
 }
