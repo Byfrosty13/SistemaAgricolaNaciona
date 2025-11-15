@@ -20,19 +20,29 @@ namespace Sistema_de_Venta_agricultura.Forms
 
         private void btnGuardarProducto_Click(object sender, EventArgs e)
         {
+            // Validaciones básicas (opcional)
+            if (string.IsNullOrWhiteSpace(txtCodigo.Text) ||
+                string.IsNullOrWhiteSpace(txtNombre.Text) ||
+                string.IsNullOrWhiteSpace(txtCantidad.Text) ||
+                string.IsNullOrWhiteSpace(txtCantidad.Text))
+            {
+                MessageBox.Show("Debe llenar todos los campos.");
+                return;
+            }
+
             ProductoInventario prod = new ProductoInventario
             {
-                codigoProducto = int.Parse(txtCodigo.Text),
-                nombreProducto = txtNombre.Text,
-                tipoProducto = cboProductor.Text,
-                Cantidad = int.Parse(txtNombre.Text),
-                precio = txtPrecio.Text,
-                ProductorId = cboProductor.Text
+                Codigo = txtCodigo.Text,
+                Nombre = txtNombre.Text,
+                Tipo = cboTipoProducto.Text,  
+                Cantidad = int.Parse(txtCantidad.Text), 
+                Precio = double.Parse(txtCantidad.Text),  
+                ProductorId = cboProductor.SelectedValue?.ToString() ?? cboProductor.Text
             };
 
-
-
-
+            // Guardar producto en inventario
+          
         }
+
     }
 }

@@ -32,7 +32,7 @@
             cboProductor = new ComboBox();
             txtCodigo = new TextBox();
             txtNombre = new TextBox();
-            txtPrecio = new TextBox();
+            txtCantidad = new TextBox();
             btnGuardarProducto = new Button();
             menuStrip1 = new MenuStrip();
             ubicacionToolStripMenuItem = new ToolStripMenuItem();
@@ -83,18 +83,18 @@
             txtNombre.Size = new Size(141, 29);
             txtNombre.TabIndex = 3;
             // 
-            // txtPrecio
+            // txtCantidad
             // 
-            txtPrecio.Font = new Font("Baskerville Old Face", 14.25F);
-            txtPrecio.Location = new Point(394, 317);
-            txtPrecio.Name = "txtPrecio";
-            txtPrecio.Size = new Size(141, 29);
-            txtPrecio.TabIndex = 4;
+            txtCantidad.Font = new Font("Baskerville Old Face", 14.25F);
+            txtCantidad.Location = new Point(394, 317);
+            txtCantidad.Name = "txtCantidad";
+            txtCantidad.Size = new Size(141, 29);
+            txtCantidad.TabIndex = 4;
             // 
             // btnGuardarProducto
             // 
             btnGuardarProducto.Font = new Font("Baskerville Old Face", 14.25F);
-            btnGuardarProducto.Location = new Point(130, 360);
+            btnGuardarProducto.Location = new Point(130, 370);
             btnGuardarProducto.Name = "btnGuardarProducto";
             btnGuardarProducto.Size = new Size(141, 36);
             btnGuardarProducto.TabIndex = 5;
@@ -207,7 +207,7 @@
             Controls.Add(label1);
             Controls.Add(menuStrip1);
             Controls.Add(btnGuardarProducto);
-            Controls.Add(txtPrecio);
+            Controls.Add(txtCantidad);
             Controls.Add(txtNombre);
             Controls.Add(txtCodigo);
             Controls.Add(cboProductor);
@@ -227,7 +227,7 @@
         private ComboBox cboProductor;
         private TextBox txtCodigo;
         private TextBox txtNombre;
-        private TextBox txtPrecio;
+        private TextBox txtCantidad;
         private Button btnGuardarProducto;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem ubicacionToolStripMenuItem;
