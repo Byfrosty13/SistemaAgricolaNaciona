@@ -175,7 +175,7 @@
             // btnGuardar
             // 
             btnGuardar.Font = new Font("Baskerville Old Face", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnGuardar.Location = new Point(199, 321);
+            btnGuardar.Location = new Point(365, 324);
             btnGuardar.Name = "btnGuardar";
             btnGuardar.Size = new Size(92, 30);
             btnGuardar.TabIndex = 29;
