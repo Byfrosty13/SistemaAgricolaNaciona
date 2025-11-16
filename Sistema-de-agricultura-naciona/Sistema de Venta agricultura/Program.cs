@@ -12,6 +12,10 @@ namespace Sistema_de_Venta_agricultura
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Login());
+
+        
+
+
         }
     }
 }

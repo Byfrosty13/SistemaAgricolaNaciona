@@ -127,6 +127,7 @@
             productosToolStripMenuItem.Name = "productosToolStripMenuItem";
             productosToolStripMenuItem.Size = new Size(113, 29);
             productosToolStripMenuItem.Text = "Productos";
+            productosToolStripMenuItem.Click += productosToolStripMenuItem_Click_1;
             // 
             // carritoToolStripMenuItem
             // 
@@ -215,6 +216,7 @@
             Name = "Inventario";
             StartPosition = FormStartPosition.CenterParent;
             Text = "Inventario";
+            Load += Inventario_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);

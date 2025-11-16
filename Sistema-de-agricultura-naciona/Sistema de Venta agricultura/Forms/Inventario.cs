@@ -20,7 +20,7 @@ namespace Sistema_de_Venta_agricultura.Forms
 
         private void btnGuardarProducto_Click(object sender, EventArgs e)
         {
-            // Validaciones básicas (opcional)
+            // Validaciones para que reevise 
             if (string.IsNullOrWhiteSpace(txtCodigo.Text) ||
                 string.IsNullOrWhiteSpace(txtNombre.Text) ||
                 string.IsNullOrWhiteSpace(txtCantidad.Text) ||
@@ -34,15 +34,32 @@ namespace Sistema_de_Venta_agricultura.Forms
             {
                 Codigo = txtCodigo.Text,
                 Nombre = txtNombre.Text,
-                Tipo = cboTipoProducto.Text,  
-                Cantidad = int.Parse(txtCantidad.Text), 
-                Precio = double.Parse(txtCantidad.Text),  
+                Tipo = cboTipoProducto.Text,
+                Cantidad = int.Parse(txtCantidad.Text),
+                Precio = double.Parse(txtCantidad.Text),
                 ProductorId = cboProductor.SelectedValue?.ToString() ?? cboProductor.Text
             };
 
             // Guardar producto en inventario
-          
+
         }
 
+        private void productosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+          
+
+        }
+
+        private void Inventario_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void productosToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            
+
+        }
     }
 }
+ 

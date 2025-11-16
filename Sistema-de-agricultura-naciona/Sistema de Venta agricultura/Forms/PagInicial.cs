@@ -78,13 +78,7 @@ namespace Sistema_de_Venta_agricultura
 
         }
 
-        private void horariosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Horarios horarios = new Horarios();
-            horarios.Show();
-            this.Hide();
-
-        }
+        //aqui iba horarios , pero no supe como hacerlo del todo funcional asi que lo quite :/
 
         private void salriToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -93,6 +87,11 @@ namespace Sistema_de_Venta_agricultura
         }
 
         private void carritoCompraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PagInicial_Load(object sender, EventArgs e)
         {
 
         }

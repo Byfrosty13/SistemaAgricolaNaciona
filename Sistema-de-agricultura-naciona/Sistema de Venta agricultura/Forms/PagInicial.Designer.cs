@@ -31,10 +31,9 @@
             label1 = new Label();
             menuStrip1 = new MenuStrip();
             ubicacionToolStripMenuItem = new ToolStripMenuItem();
-            horariosToolStripMenuItem = new ToolStripMenuItem();
+            registroProvedorToolStripMenuItem = new ToolStripMenuItem();
             productosToolStripMenuItem = new ToolStripMenuItem();
             carritoCompraToolStripMenuItem = new ToolStripMenuItem();
-            registroProvedorToolStripMenuItem = new ToolStripMenuItem();
             actualizarDatosDeCuentaToolStripMenuItem = new ToolStripMenuItem();
             salriToolStripMenuItem = new ToolStripMenuItem();
             lbluser = new Label();
@@ -66,7 +65,7 @@
             menuStrip1.BackgroundImageLayout = ImageLayout.Center;
             menuStrip1.Font = new Font("Baskerville Old Face", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
             menuStrip1.ImageScalingSize = new Size(24, 24);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { ubicacionToolStripMenuItem, horariosToolStripMenuItem, registroProvedorToolStripMenuItem, productosToolStripMenuItem, carritoCompraToolStripMenuItem, actualizarDatosDeCuentaToolStripMenuItem, salriToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { ubicacionToolStripMenuItem, registroProvedorToolStripMenuItem, productosToolStripMenuItem, carritoCompraToolStripMenuItem, actualizarDatosDeCuentaToolStripMenuItem, salriToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Padding = new Padding(4, 1, 0, 1);
@@ -82,12 +81,12 @@
             ubicacionToolStripMenuItem.Text = "Ubicacion";
             ubicacionToolStripMenuItem.Click += ubicacionToolStripMenuItem_Click;
             // 
-            // horariosToolStripMenuItem
+            // registroProvedorToolStripMenuItem
             // 
-            horariosToolStripMenuItem.Name = "horariosToolStripMenuItem";
-            horariosToolStripMenuItem.Size = new Size(102, 29);
-            horariosToolStripMenuItem.Text = "Horarios";
-            horariosToolStripMenuItem.Click += horariosToolStripMenuItem_Click;
+            registroProvedorToolStripMenuItem.Name = "registroProvedorToolStripMenuItem";
+            registroProvedorToolStripMenuItem.Size = new Size(131, 29);
+            registroProvedorToolStripMenuItem.Text = "Productores";
+            registroProvedorToolStripMenuItem.Click += registroProvedorToolStripMenuItem_Click;
             // 
             // productosToolStripMenuItem
             // 
@@ -102,13 +101,6 @@
             carritoCompraToolStripMenuItem.Size = new Size(165, 29);
             carritoCompraToolStripMenuItem.Text = "Carrito Compra";
             carritoCompraToolStripMenuItem.Click += carritoCompraToolStripMenuItem_Click;
-            // 
-            // registroProvedorToolStripMenuItem
-            // 
-            registroProvedorToolStripMenuItem.Name = "registroProvedorToolStripMenuItem";
-            registroProvedorToolStripMenuItem.Size = new Size(131, 29);
-            registroProvedorToolStripMenuItem.Text = "Productores";
-            registroProvedorToolStripMenuItem.Click += registroProvedorToolStripMenuItem_Click;
             // 
             // actualizarDatosDeCuentaToolStripMenuItem
             // 
@@ -206,6 +198,7 @@
             Name = "PagInicial";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "PagInicial";
+            Load += PagInicial_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -218,7 +211,6 @@
         private Label label1;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem ubicacionToolStripMenuItem;
-        private ToolStripMenuItem horariosToolStripMenuItem;
         private ToolStripMenuItem productosToolStripMenuItem;
         private ToolStripMenuItem registroProvedorToolStripMenuItem;
         private ToolStripMenuItem actualizarDatosDeCuentaToolStripMenuItem;

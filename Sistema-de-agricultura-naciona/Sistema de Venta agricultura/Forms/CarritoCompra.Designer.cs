@@ -32,31 +32,36 @@
             lblTotal = new Label();
             btnConfirmarCompra = new Button();
             btnEliminarItem = new Button();
+            txtCodigo = new TextBox();
+            txtNombre = new TextBox();
+            txtPrecio = new TextBox();
             ((System.ComponentModel.ISupportInitialize)dgvCarrito).BeginInit();
             SuspendLayout();
             // 
             // dgvCarrito
             // 
             dgvCarrito.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvCarrito.Location = new Point(213, 81);
+            dgvCarrito.Location = new Point(90, 67);
             dgvCarrito.Name = "dgvCarrito";
             dgvCarrito.Size = new Size(511, 334);
             dgvCarrito.TabIndex = 0;
+            dgvCarrito.CellContentClick += dgvCarrito_CellContentClick;
             // 
             // lblTotal
             // 
             lblTotal.AutoSize = true;
             lblTotal.BackColor = SystemColors.ActiveCaption;
             lblTotal.BorderStyle = BorderStyle.Fixed3D;
-            lblTotal.Location = new Point(589, 444);
+            lblTotal.Location = new Point(561, 457);
             lblTotal.Name = "lblTotal";
             lblTotal.Size = new Size(58, 47);
             lblTotal.TabIndex = 1;
             lblTotal.Text = "(               \r\n\r\n)";
+            lblTotal.Click += lblTotal_Click;
             // 
             // btnConfirmarCompra
             // 
-            btnConfirmarCompra.Location = new Point(690, 453);
+            btnConfirmarCompra.Location = new Point(692, 481);
             btnConfirmarCompra.Name = "btnConfirmarCompra";
             btnConfirmarCompra.Size = new Size(75, 23);
             btnConfirmarCompra.TabIndex = 2;
@@ -66,18 +71,42 @@
             // 
             // btnEliminarItem
             // 
-            btnEliminarItem.Location = new Point(271, 468);
+            btnEliminarItem.Location = new Point(254, 481);
             btnEliminarItem.Name = "btnEliminarItem";
             btnEliminarItem.Size = new Size(75, 23);
             btnEliminarItem.TabIndex = 3;
             btnEliminarItem.Text = "Cancelar";
             btnEliminarItem.UseVisualStyleBackColor = true;
             // 
+            // txtCodigo
+            // 
+            txtCodigo.Location = new Point(724, 106);
+            txtCodigo.Name = "txtCodigo";
+            txtCodigo.Size = new Size(100, 23);
+            txtCodigo.TabIndex = 4;
+            // 
+            // txtNombre
+            // 
+            txtNombre.Location = new Point(725, 156);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(100, 23);
+            txtNombre.TabIndex = 5;
+            // 
+            // txtPrecio
+            // 
+            txtPrecio.Location = new Point(724, 203);
+            txtPrecio.Name = "txtPrecio";
+            txtPrecio.Size = new Size(100, 23);
+            txtPrecio.TabIndex = 6;
+            // 
             // CarritoCompra
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1000, 577);
+            Controls.Add(txtPrecio);
+            Controls.Add(txtNombre);
+            Controls.Add(txtCodigo);
             Controls.Add(btnEliminarItem);
             Controls.Add(btnConfirmarCompra);
             Controls.Add(lblTotal);
@@ -96,5 +125,8 @@
         private Label lblTotal;
         private Button btnConfirmarCompra;
         private Button btnEliminarItem;
+        private TextBox txtCodigo;
+        private TextBox txtNombre;
+        private TextBox txtPrecio;
     }
 }
