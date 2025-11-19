@@ -110,9 +110,38 @@ namespace Sistema_de_Venta_agricultura.Forms
             CheckedListBoxCantones.Items.Clear();
             checkedListBoxDistritos.Items.Clear();
 
-            
+
             CargarProvincias();
 
+        }
+
+        private void ubicacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PagInicial paginicial = new PagInicial();
+            paginicial.Show();
+            this.Hide();
+
+        }
+
+        private void registroProvedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RegistrarProvedores registrarProvedores = new RegistrarProvedores();
+            registrarProvedores.Show();
+            this.Hide();
+
+        }
+
+        private void productosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Productos productos = new Productos();
+            productos.Show();
+            this.Hide();
+
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

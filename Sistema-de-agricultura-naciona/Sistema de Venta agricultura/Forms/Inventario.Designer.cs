@@ -121,6 +121,7 @@
             ubicacionToolStripMenuItem.Name = "ubicacionToolStripMenuItem";
             ubicacionToolStripMenuItem.Size = new Size(73, 29);
             ubicacionToolStripMenuItem.Text = "Inicio";
+            ubicacionToolStripMenuItem.Click += ubicacionToolStripMenuItem_Click;
             // 
             // productosToolStripMenuItem
             // 

@@ -9,7 +9,7 @@ namespace Sistema_de_Venta_agricultura.Clases
 
         public void AgregarProducto(ProductoInventario p)
         {
-            // Si ya existe el producto actualiza cantidad
+        
             var existente = productos.FirstOrDefault(prod => prod.Codigo == p.Codigo);
 
             if (existente != null)

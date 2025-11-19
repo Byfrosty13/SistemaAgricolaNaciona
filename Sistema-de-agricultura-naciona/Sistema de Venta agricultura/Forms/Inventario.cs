@@ -46,7 +46,7 @@ namespace Sistema_de_Venta_agricultura.Forms
 
         private void productosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-          
+
 
         }
 
@@ -57,8 +57,15 @@ namespace Sistema_de_Venta_agricultura.Forms
 
         private void productosToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            
 
+
+        }
+
+        private void ubicacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PagInicial paginicial = new PagInicial();
+            paginicial.Show();
+            this.Hide();
         }
     }
 }

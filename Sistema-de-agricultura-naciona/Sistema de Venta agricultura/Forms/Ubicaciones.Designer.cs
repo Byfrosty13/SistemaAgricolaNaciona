@@ -30,7 +30,6 @@
         {
             menuStrip1 = new MenuStrip();
             ubicacionToolStripMenuItem = new ToolStripMenuItem();
-            horariosToolStripMenuItem = new ToolStripMenuItem();
             productosToolStripMenuItem = new ToolStripMenuItem();
             registroProvedorToolStripMenuItem = new ToolStripMenuItem();
             actualizarDatosDeCuentaToolStripMenuItem = new ToolStripMenuItem();
@@ -40,6 +39,7 @@
             CheckedListBoxCantones = new CheckedListBox();
             checkedListBoxDistritos = new CheckedListBox();
             btnLimpiar = new Button();
+            salirToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -49,7 +49,7 @@
             menuStrip1.BackgroundImageLayout = ImageLayout.Center;
             menuStrip1.Font = new Font("Baskerville Old Face", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
             menuStrip1.ImageScalingSize = new Size(24, 24);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { ubicacionToolStripMenuItem, horariosToolStripMenuItem, productosToolStripMenuItem, registroProvedorToolStripMenuItem, actualizarDatosDeCuentaToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { ubicacionToolStripMenuItem, productosToolStripMenuItem, registroProvedorToolStripMenuItem, actualizarDatosDeCuentaToolStripMenuItem, salirToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Padding = new Padding(4, 1, 0, 1);
@@ -62,24 +62,21 @@
             ubicacionToolStripMenuItem.Name = "ubicacionToolStripMenuItem";
             ubicacionToolStripMenuItem.Size = new Size(73, 29);
             ubicacionToolStripMenuItem.Text = "Inicio";
-            // 
-            // horariosToolStripMenuItem
-            // 
-            horariosToolStripMenuItem.Name = "horariosToolStripMenuItem";
-            horariosToolStripMenuItem.Size = new Size(102, 29);
-            horariosToolStripMenuItem.Text = "Horarios";
+            ubicacionToolStripMenuItem.Click += ubicacionToolStripMenuItem_Click;
             // 
             // productosToolStripMenuItem
             // 
             productosToolStripMenuItem.Name = "productosToolStripMenuItem";
             productosToolStripMenuItem.Size = new Size(113, 29);
             productosToolStripMenuItem.Text = "Productos";
+            productosToolStripMenuItem.Click += productosToolStripMenuItem_Click;
             // 
             // registroProvedorToolStripMenuItem
             // 
             registroProvedorToolStripMenuItem.Name = "registroProvedorToolStripMenuItem";
             registroProvedorToolStripMenuItem.Size = new Size(182, 29);
             registroProvedorToolStripMenuItem.Text = "Registro provedor";
+            registroProvedorToolStripMenuItem.Click += registroProvedorToolStripMenuItem_Click;
             // 
             // actualizarDatosDeCuentaToolStripMenuItem
             // 
@@ -136,6 +133,13 @@
             btnLimpiar.UseVisualStyleBackColor = true;
             btnLimpiar.Click += btnLimpiar_Click;
             // 
+            // salirToolStripMenuItem
+            // 
+            salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            salirToolStripMenuItem.Size = new Size(62, 29);
+            salirToolStripMenuItem.Text = "Salir";
+            salirToolStripMenuItem.Click += salirToolStripMenuItem_Click;
+            // 
             // Ubicaciones
             // 
             AutoScaleMode = AutoScaleMode.None;
@@ -160,7 +164,6 @@
 
         private MenuStrip menuStrip1;
         private ToolStripMenuItem ubicacionToolStripMenuItem;
-        private ToolStripMenuItem horariosToolStripMenuItem;
         private ToolStripMenuItem productosToolStripMenuItem;
         private ToolStripMenuItem registroProvedorToolStripMenuItem;
         private ToolStripMenuItem actualizarDatosDeCuentaToolStripMenuItem;
@@ -170,5 +173,6 @@
         private CheckedListBox CheckedListBoxCantones;
         private CheckedListBox checkedListBoxDistritos;
         private Button btnLimpiar;
+        private ToolStripMenuItem salirToolStripMenuItem;
     }
 }
